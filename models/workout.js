@@ -35,6 +35,6 @@ schema.virtual('totalDuration').get(function() {
     return totalDuration
 })
 
-const Workout = mongoose.model('Workout', schema)
+const Workout = mongoose.model('Workouts', schema)
 
 module.exports = Workout
